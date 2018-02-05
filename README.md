@@ -29,36 +29,6 @@ npm install
 npm run dev
 
 ```
-<!-- ## 另外
-此项目有配套的后台系统，如果想前后台同时开发，可以下载对应的后台系统：[后台项目传送地址](https://github.com/bailicangdu/node-elm)。
-
-此时启动项目使用：npm run local 而不是 npm run dev。
-
-如果只做前端开发，请忽略这句话。 -->
-
-
-<!-- # 说明
->  推荐一个 react + redux 开源项目，对react感兴趣的朋友赶紧去看看。[地址在这里](https://github.com/bailicangdu/react-pxq)
-
->  另外一个 vue2 + vuex 的入门项目，比当前的项目简单很多，非常适合入门练习。[地址在这里](https://github.com/bailicangdu/vue2-happyfri) -->
-
-
-<!-- ## 关于 数据接口 的说明🤔
-
-由于一些原因，以前的数据接口无法使用，导致项目无法正常运行。以后改用nodejs构建的[后台系统](https://github.com/bailicangdu/node-elm)接口，数据接口的格式保持了和官网的一致。并提供对应的[后台管理系统](https://github.com/bailicangdu/vue2-manage) -->
-
-
-
-<!-- # 效果演示
-
-[查看demo请戳这里](http://cangdu.org:8001/)（请用chrome手机模式预览）
-
-### 移动端扫描下方二维码
-
-<img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/ewm.png" width="250" height="250"/>
- -->
-
-
 # 目标功能
 - [x] 定位功能 -- 完成
 - [x] 选择城市 -- 完成
@@ -105,7 +75,7 @@ npm run dev
 
 # 最终目标
 
-1、用node.js构建一个模拟外卖平台的后台系统。[地址在这里](https://github.com/bailicangdu/node-elm)
+1、用node.js构建一个模拟外卖平台的后台系统。
 
 2、构建一个横跨前后端，移动IOS、Android的完整生态圈。
 
