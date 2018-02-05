@@ -8,12 +8,7 @@
 
 此项目大大小小共 45 个页面，涉及注册、登录、商品展示、购物车、下单等等，是一个完整的流程。一般公司即便是官网的单页面项目都没这么复杂，如果这个项目能驾驭的了，相信大部分公司的其他单页面应用也就不在话下，即便更复杂，也不会比这个高到哪里去。
 
-因为利用业余时间来做，年前就开始写，又跨个年，周期有点长，项目从零布局到完成共用了2个多月的时间，目前项目已经完成，正在进行一些性能的优化，增加详细的注释。
-
-另外，这个项目和慕课网视频的那个饿了么没有任何关系，慕课网的项目只有一个页面，我在看完vue的官方文档后直接写了这个项目，没有参照任何人的代码，请大家不要混为一谈。
-
-__注：此项目纯属个人瞎搞，正常下单请选择饿了么官方客户端。__
-
+因为利用业余时间来做，周期有点长，项目从零布局到完成共用了2个月的时间，目前项目已经完成，正在进行一些性能的优化，增加详细的注释。
 
 ## 技术栈
 
@@ -34,49 +29,34 @@ npm install
 npm run dev
 
 ```
-## 另外
+<!-- ## 另外
 此项目有配套的后台系统，如果想前后台同时开发，可以下载对应的后台系统：[后台项目传送地址](https://github.com/bailicangdu/node-elm)。
 
 此时启动项目使用：npm run local 而不是 npm run dev。
 
-如果只做前端开发，请忽略这句话。
+如果只做前端开发，请忽略这句话。 -->
 
 
-# 说明
-
->  如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！ ^_^
-
->  或者您可以 "follow" 一下，我会不断开源更多的有趣的项目
-
->  开发环境 macOS 10.12.3  Chrome 56  nodejs 6.10.0
-
->  特别感谢辰妹子[@bailichen](https://github.com/bailichen)，在百忙之中抽出时间和我一起完成了这个项目，辛苦了🌹
-
->  如有问题请直接在 Issues 中提，或者您发现问题并有非常好的解决方案，欢迎 PR 👍
-
->  项目交流群：528447162(QQ)
-
+<!-- # 说明
 >  推荐一个 react + redux 开源项目，对react感兴趣的朋友赶紧去看看。[地址在这里](https://github.com/bailicangdu/react-pxq)
 
->  另外一个 vue2 + vuex 的入门项目，比当前的项目简单很多，非常适合入门练习。[地址在这里](https://github.com/bailicangdu/vue2-happyfri)
+>  另外一个 vue2 + vuex 的入门项目，比当前的项目简单很多，非常适合入门练习。[地址在这里](https://github.com/bailicangdu/vue2-happyfri) -->
 
 
-## 关于 数据接口 的说明🤔
+<!-- ## 关于 数据接口 的说明🤔
 
-### 2017-05-30
-
-由于一些原因，以前的数据接口无法使用，导致项目无法正常运行。以后改用nodejs构建的[后台系统](https://github.com/bailicangdu/node-elm)接口，数据接口的格式保持了和官网的一致。并提供对应的[后台管理系统](https://github.com/bailicangdu/vue2-manage)
+由于一些原因，以前的数据接口无法使用，导致项目无法正常运行。以后改用nodejs构建的[后台系统](https://github.com/bailicangdu/node-elm)接口，数据接口的格式保持了和官网的一致。并提供对应的[后台管理系统](https://github.com/bailicangdu/vue2-manage) -->
 
 
 
-# 效果演示
+<!-- # 效果演示
 
 [查看demo请戳这里](http://cangdu.org:8001/)（请用chrome手机模式预览）
 
 ### 移动端扫描下方二维码
 
 <img src="https://github.com/bailicangdu/vue2-elm/blob/master/screenshots/ewm.png" width="250" height="250"/>
-
+ -->
 
 
 # 目标功能
@@ -127,11 +107,7 @@ npm run dev
 
 1、用node.js构建一个模拟外卖平台的后台系统。[地址在这里](https://github.com/bailicangdu/node-elm)
 
-2、利用 react-native 写出跨 Android 和 IOS 的原生APP版本。[地址在这里](https://github.com/bailicangdu/React-Native-elm)
-
-3、如果时间来的及，会出一卖家版本。
-
-所以我的目的是构建一个横跨前后端，移动IOS、Android的完整生态圈。
+2、构建一个横跨前后端，移动IOS、Android的完整生态圈。
 
 。。。敬请期待
 
